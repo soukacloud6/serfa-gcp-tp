@@ -1,0 +1,14 @@
+steps:
+
+  # ! build
+  # installation des dépendances
+  - name: python
+    entrypoint: pip
+    args: ["install", "-r", "modules/4.3/example1/requirements.txt", "--user"]
+    id: "Install"
+
+    # ! test
+    # TODO
+
+    # ! deploy
+    # TODO
